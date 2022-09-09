@@ -1,0 +1,116 @@
+:root {
+  --red: #dc3545;
+}
+
+/*! -------------- 1- NAVBAR ---------------- */
+.navbar .nav-link {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+}
+
+.navbar .nav-link:hover {
+  color: red;
+}
+/*! ------------- 2- CAROUSEL --------------- */
+.carousel-caption h5 {
+  color: #cf5656;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 3px black;
+}
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+.carousel-caption p {
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+
+.carousel-caption .btn {
+  font-weight: 600;
+  width: 7rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+.carousel-indicators button {
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+  margin-right: 0.7rem !important;
+}
+
+.carousel-caption {
+  bottom: 5rem;
+}
+
+/*! ------------ 3- ABOUT SECTION ----------- */
+
+/*! ------------- 4- INSTRUCTORS -------------*/
+.card {
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+section#instructors .socials i {
+  transition: opacity 0.4s;
+}
+section#instructors .socials i:hover {
+  opacity: 0.7;
+}
+/*! ----------- 4- STUDENTS SECTION ----------*/
+#students .row {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+/*! ----------- 5- COURSES SECTION ----------- */
+#pills-home .row img {
+  width: 100%;
+  border: 4px solid white;
+  border-radius: 4px;
+}
+
+#pills-profile .row img {
+  width: 100%;
+  border: 4px solid white;
+  border-radius: 4px;
+}
+#pills-contact .row img {
+  width: 100%;
+  border: 4px solid white;
+  border-radius: 4px;
+}
+section#courses .nav-item .nav-link.active {
+  background-color: #dc3545;
+}
+/*! ----------- 6- CONTACT SECTION ------------ */
+#contact .row i {
+  color: #dc3545 !important;
+  font-size: 2rem;
+}
+/** -------------- UP-BUTTON ------------------ */
+.up-button {
+  position: static;
+  right: 20px;
+  bottom: 20px;
+}
+/*! --------------- 7- FOOTER ----------------- */
+footer .row .col i {
+  font-size: 1.5rem !important;
+  margin-right: 1rem !important;
+  transition: all 1s;
+}
+footer .row h4 {
+  font-size: 0.8rem !important;
+}
+footer .row .col i:hover {
+  color: #dc3545 !important;
+}
+
+footer {
+  margin: 0 !important;
+  width: 100%;
+}
